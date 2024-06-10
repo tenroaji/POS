@@ -49,7 +49,7 @@ class BarangMasukResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('invoice')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('customer.id')
+                Tables\Columns\TextColumn::make('customer.nama')
                     ->numeric()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('total')
